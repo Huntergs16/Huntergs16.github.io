@@ -1,0 +1,20 @@
+.mainInfo {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.mainInfo .pics {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  overflow: scroll;
+}
+
+.mainInfo .pics img {
+  height: 100%;
+}
