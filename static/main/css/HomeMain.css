@@ -1,6 +1,5 @@
 .mainInfo {
-  width: 90%;
-  height: 80vh;
+  height: 98%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,11 +9,13 @@
 
 .mainInfo .pics {
   width: 100%;
+  height: 70vh;
   display: flex;
   gap: 15px;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 .mainInfo .pics img {
   height: 100%;
 }
+
